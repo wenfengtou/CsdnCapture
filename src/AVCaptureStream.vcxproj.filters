@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源">
+      <UniqueIdentifier>{e286eef9-95cb-450f-bba7-7e3fc388435c}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头">
+      <UniqueIdentifier>{81d4237c-a118-4551-99d4-8d40d404c4ad}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源">
+      <UniqueIdentifier>{d2d35655-9253-430b-ad25-3acc29aab7af}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AVInputStream.cpp">
+      <Filter>源</Filter>
+    </ClCompile>
+    <ClCompile Include="AVOutputStream.cpp">
+      <Filter>源</Filter>
+    </ClCompile>
+    <ClCompile Include="ChildView.cpp">
+      <Filter>源</Filter>
+    </ClCompile>
+    <ClCompile Include="ImagePainter.cpp">
+      <Filter>源</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>源</Filter>
+    </ClCompile>
+    <ClCompile Include="NSPlayer.cpp">
+      <Filter>源</Filter>
+    </ClCompile>
+    <ClCompile Include="PProfile.cpp">
+      <Filter>源</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectCaptureDeviceDlg.cpp">
+      <Filter>源</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源</Filter>
+    </ClCompile>
+    <ClCompile Include="VideoDisplayWnd.cpp">
+      <Filter>源</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AVInputStream.h">
+      <Filter>头</Filter>
+    </ClInclude>
+    <ClInclude Include="AVOutputStream.h">
+      <Filter>头</Filter>
+    </ClInclude>
+    <ClInclude Include="ChildView.h">
+      <Filter>头</Filter>
+    </ClInclude>
+    <ClInclude Include="include\EnumDevice.h">
+      <Filter>头</Filter>
+    </ClInclude>
+    <ClInclude Include="ImagePainter.h">
+      <Filter>头</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>头</Filter>
+    </ClInclude>
+    <ClInclude Include="NSPlayer.h">
+      <Filter>头</Filter>
+    </ClInclude>
+    <ClInclude Include="PProfile.h">
+      <Filter>头</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectCaptureDeviceDlg.h">
+      <Filter>头</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头</Filter>
+    </ClInclude>
+    <ClInclude Include="VideoDisplayWnd.h">
+      <Filter>头</Filter>
+    </ClInclude>
+    <ClInclude Include="wxutil2.h">
+      <Filter>头</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\NSPlayer.ico">
+      <Filter>资源</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="NSPlayer.rc">
+      <Filter>资源</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\NSPlayer.rc2">
+      <Filter>资源</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="res\NSPlayer.manifest" />
+  </ItemGroup>
+</Project>
